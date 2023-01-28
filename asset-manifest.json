@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.c00bea44.chunk.css",
-    "main.js": "./static/js/main.31dd4ef5.chunk.js",
-    "main.js.map": "./static/js/main.31dd4ef5.chunk.js.map",
+    "main.js": "./static/js/main.d368d20d.chunk.js",
+    "main.js.map": "./static/js/main.d368d20d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fff6ee50.js",
     "runtime-main.js.map": "./static/js/runtime-main.fff6ee50.js.map",
-    "static/js/2.a95473b2.chunk.js": "./static/js/2.a95473b2.chunk.js",
-    "static/js/2.a95473b2.chunk.js.map": "./static/js/2.a95473b2.chunk.js.map",
+    "static/js/2.1f528bfb.chunk.js": "./static/js/2.1f528bfb.chunk.js",
+    "static/js/2.1f528bfb.chunk.js.map": "./static/js/2.1f528bfb.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.a3d44c9279b77123d1d8b767d5cd8e8a.js": "./precache-manifest.a3d44c9279b77123d1d8b767d5cd8e8a.js",
+    "precache-manifest.abc2e8499484bb64bae4081a7c47c61a.js": "./precache-manifest.abc2e8499484bb64bae4081a7c47c61a.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.c00bea44.chunk.css.map": "./static/css/main.c00bea44.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
@@ -64,13 +64,14 @@
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.3fa54242.svg",
     "static/media/tiktok_logo.png": "./static/media/tiktok_logo.0993e324.png",
+    "static/media/udemy.png": "./static/media/udemy.9f38217a.png",
     "static/media/ui_ux_design.svg": "./static/media/ui_ux_design.d6363089.svg",
     "static/media/vscode.svg": "./static/media/vscode.a0f33ad8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fff6ee50.js",
-    "static/js/2.a95473b2.chunk.js",
+    "static/js/2.1f528bfb.chunk.js",
     "static/css/main.c00bea44.chunk.css",
-    "static/js/main.31dd4ef5.chunk.js"
+    "static/js/main.d368d20d.chunk.js"
   ]
 }
