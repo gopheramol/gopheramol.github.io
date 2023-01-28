@@ -9,6 +9,7 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import Header from "../components/header/Header";
 
 export default class Main extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class Main extends Component {
       return (
         <div>
           <HashRouter basename="/">
+            <Header theme={this.props.theme} />
             <Switch>
               <Route
                 path="/"
@@ -79,6 +81,7 @@ export default class Main extends Component {
       return (
         <div>
           <HashRouter basename="/">
+            <Header theme={this.props.theme} />
             <Switch>
               <Route
                 path="/"
@@ -102,12 +105,12 @@ export default class Main extends Component {
                   <Education {...props} theme={this.props.theme} />
                 )}
               />
-              <Route
+              {/* <Route
                 path="/opensource"
                 render={(props) => (
                   <Opensource {...props} theme={this.props.theme} />
                 )}
-              />
+              /> */}
               <Route
                 path="/contact"
                 render={(props) => (

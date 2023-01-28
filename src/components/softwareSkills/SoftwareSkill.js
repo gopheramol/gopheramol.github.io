@@ -7,7 +7,7 @@ class SoftwareSkill extends React.Component {
     return (
       <div>
         <div className="software-skills-main-div">
-          <ul className="dev-icons">
+          <div className="dev-icons">
             {/* {skillsSection.softwareSkills.map(skills => {
             return (
               <li className="software-skill-inline" name={skills.skillName}>
@@ -26,18 +26,15 @@ class SoftwareSkill extends React.Component {
                     </Tooltip>
                   }
                 >
-                  <li className="software-skill-inline" name={logo.skillName}>
-                    <span
-                      className="iconify"
-                      data-icon={logo.fontAwesomeClassname}
-                      style={logo.style}
-                      data-inline="false"
-                    ></span>
-                  </li>
+                  <img
+                    name={logo.skillName}
+                    className="skill-image"
+                    src={logo.image}
+                  />
                 </OverlayTrigger>
               );
             })}
-          </ul>
+          </div>
         </div>
       </div>
     );
