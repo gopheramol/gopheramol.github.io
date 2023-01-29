@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.c00bea44.chunk.css",
-    "main.js": "./static/js/main.d368d20d.chunk.js",
-    "main.js.map": "./static/js/main.d368d20d.chunk.js.map",
+    "main.css": "./static/css/main.c67bc7ee.chunk.css",
+    "main.js": "./static/js/main.cf29edfd.chunk.js",
+    "main.js.map": "./static/js/main.cf29edfd.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fff6ee50.js",
     "runtime-main.js.map": "./static/js/runtime-main.fff6ee50.js.map",
-    "static/js/2.1f528bfb.chunk.js": "./static/js/2.1f528bfb.chunk.js",
-    "static/js/2.1f528bfb.chunk.js.map": "./static/js/2.1f528bfb.chunk.js.map",
+    "static/js/2.3a027c22.chunk.js": "./static/js/2.3a027c22.chunk.js",
+    "static/js/2.3a027c22.chunk.js.map": "./static/js/2.3a027c22.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.abc2e8499484bb64bae4081a7c47c61a.js": "./precache-manifest.abc2e8499484bb64bae4081a7c47c61a.js",
+    "precache-manifest.6adfa4aeb759d575e94575a069962f4a.js": "./precache-manifest.6adfa4aeb759d575e94575a069962f4a.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.c00bea44.chunk.css.map": "./static/css/main.c00bea44.chunk.css.map",
+    "static/css/main.c67bc7ee.chunk.css.map": "./static/css/main.c67bc7ee.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "./static/media/address_image.16559172.svg",
     "static/media/amol.jpeg": "./static/media/amol.acb251d6.jpeg",
-    "static/media/animated_ashutosh.png": "./static/media/animated_ashutosh.eaf02c2d.png",
     "static/media/animated_logo.svg": "./static/media/animated_logo.dcd6dee2.svg",
     "static/media/aws.svg": "./static/media/aws.259e1339.svg",
     "static/media/blogs_image.svg": "./static/media/blogs_image.058eca4c.svg",
@@ -27,6 +26,7 @@
     "static/media/docker.svg": "./static/media/docker.530d80a8.svg",
     "static/media/dsc_logo.png": "./static/media/dsc_logo.63f707f2.png",
     "static/media/education.svg": "./static/media/education.3bab7a9d.svg",
+    "static/media/eth.svg": "./static/media/eth.7c199546.svg",
     "static/media/experience.svg": "./static/media/experience.a00ede3f.svg",
     "static/media/all.css": "./static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/feelingProud.svg": "./static/media/feelingProud.2936ce95.svg",
@@ -39,6 +39,7 @@
     "static/media/go.svg": "./static/media/go.974a7581.svg",
     "static/media/googleAssistant.jpg": "./static/media/googleAssistant.0c8a4c11.jpg",
     "static/media/googleAssistant.svg": "./static/media/googleAssistant.a6addc3f.svg",
+    "static/media/grpc.svg": "./static/media/grpc.44feb125.svg",
     "static/media/ibm_logo.png": "./static/media/ibm_logo.d3fccbe1.png",
     "static/media/iiitk_logo.png": "./static/media/iiitk_logo.571a8584.png",
     "static/media/intel_logo.jpg": "./static/media/intel_logo.29152cf7.jpg",
@@ -51,6 +52,7 @@
     "static/media/manOnTable.svg": "./static/media/manOnTable.83ac24fb.svg",
     "static/media/mongo.svg": "./static/media/mongo.4643494b.svg",
     "static/media/muffito_logo.png": "./static/media/muffito_logo.069938a8.png",
+    "static/media/mysql.svg": "./static/media/mysql.d348e471.svg",
     "static/media/nmvp.jpg": "./static/media/nmvp.df06856d.jpg",
     "static/media/nptel_logo.png": "./static/media/nptel_logo.95a12a2b.png",
     "static/media/portfolio.gif": "./static/media/portfolio.414dfbd9.gif",
@@ -66,12 +68,13 @@
     "static/media/tiktok_logo.png": "./static/media/tiktok_logo.0993e324.png",
     "static/media/udemy.png": "./static/media/udemy.9f38217a.png",
     "static/media/ui_ux_design.svg": "./static/media/ui_ux_design.d6363089.svg",
-    "static/media/vscode.svg": "./static/media/vscode.a0f33ad8.svg"
+    "static/media/vscode.svg": "./static/media/vscode.a0f33ad8.svg",
+    "static/media/webrtc.svg": "./static/media/webrtc.e4eee61f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fff6ee50.js",
-    "static/js/2.1f528bfb.chunk.js",
-    "static/css/main.c00bea44.chunk.css",
-    "static/js/main.d368d20d.chunk.js"
+    "static/js/2.3a027c22.chunk.js",
+    "static/css/main.c67bc7ee.chunk.css",
+    "static/js/main.cf29edfd.chunk.js"
   ]
 }

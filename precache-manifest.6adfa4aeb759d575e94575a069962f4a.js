@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e9b7b155dd8085f6d14c529888a8a35",
+    "revision": "d404748114069bdb2fa7d8676ff23419",
     "url": "./index.html"
   },
   {
-    "revision": "061f16541635685ae7f5",
-    "url": "./static/css/main.c00bea44.chunk.css"
+    "revision": "f431bcb6361b680a5cc2",
+    "url": "./static/css/main.c67bc7ee.chunk.css"
   },
   {
-    "revision": "f67f36f1c052c96b3ccf",
-    "url": "./static/js/2.1f528bfb.chunk.js"
+    "revision": "9dde241a8c910b12eaae",
+    "url": "./static/js/2.3a027c22.chunk.js"
   },
   {
-    "revision": "061f16541635685ae7f5",
-    "url": "./static/js/main.d368d20d.chunk.js"
+    "revision": "f431bcb6361b680a5cc2",
+    "url": "./static/js/main.cf29edfd.chunk.js"
   },
   {
     "revision": "1a27038c5115d044f6f9",
@@ -58,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "acb251d6cb197f63408652118c9cbcef",
     "url": "./static/media/amol.acb251d6.jpeg"
-  },
-  {
-    "revision": "eaf02c2d0158b6b4b8c2a0a0cf830a04",
-    "url": "./static/media/animated_ashutosh.eaf02c2d.png"
   },
   {
     "revision": "dcd6dee2bd7458a4a576dc131506fd83",
@@ -110,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3bab7a9dc4324f1b2364d25a47fcfcf0",
     "url": "./static/media/education.3bab7a9d.svg"
+  },
+  {
+    "revision": "7c19954628081bf6fd772fa0d0819547",
+    "url": "./static/media/eth.7c199546.svg"
   },
   {
     "revision": "a00ede3f70759480e81f14f203edaa51",
@@ -216,6 +216,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/googleAssistant.a6addc3f.svg"
   },
   {
+    "revision": "44feb125362886d232dc47c540350b47",
+    "url": "./static/media/grpc.44feb125.svg"
+  },
+  {
     "revision": "d3fccbe1db76b96f4f320d9c0f7da30c",
     "url": "./static/media/ibm_logo.d3fccbe1.png"
   },
@@ -262,6 +266,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "069938a84edd6ebf383c318e9feb5d4c",
     "url": "./static/media/muffito_logo.069938a8.png"
+  },
+  {
+    "revision": "d348e471899dc29c79c623ebaa62e0a3",
+    "url": "./static/media/mysql.d348e471.svg"
   },
   {
     "revision": "df06856d406569006590935b26381997",
@@ -326,5 +334,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a0f33ad8ad533f1dd3a77bf2f100edae",
     "url": "./static/media/vscode.a0f33ad8.svg"
+  },
+  {
+    "revision": "e4eee61f61447f07967a75f99a3cff52",
+    "url": "./static/media/webrtc.e4eee61f.svg"
   }
 ]);
