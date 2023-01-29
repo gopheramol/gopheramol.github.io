@@ -12,7 +12,7 @@ import {
   publicationsHeader,
   publications,
 } from "../../portfolio.js";
-import ProjectsData from "../../shared/opensource/projects.json";
+import { projects as ProjectsData } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 

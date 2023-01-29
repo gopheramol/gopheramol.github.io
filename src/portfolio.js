@@ -8,6 +8,10 @@ import AWS from "./assests/images/skills/aws.svg";
 import GCP from "./assests/images/skills/gcp.svg";
 import Kubernetes from "./assests/images/skills/kubernetes.svg";
 import Postresql from "./assests/images/skills/postgresql.svg";
+import ETH from "./assests/images/skills/eth.svg";
+import WebRTC from "./assests/images/skills/webrtc.svg";
+import MySQL from "./assests/images/skills/mysql.svg";
+import GRPC from "./assests/images/skills/grpc.svg";
 
 import Vscode from "./assests/images/skills/vscode.svg";
 import Linux from "./assests/images/skills/linux.svg";
@@ -138,8 +142,6 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
         {
@@ -328,19 +330,121 @@ const experience = {
         },
       ],
     },
+  ],
+};
+
+const projects = {
+  data: [
     {
-      title: "Volunteerships",
-      experiences: [
+      id: "4",
+      name: "Finance Application",
+      url: "",
+      description:
+        "Provide seamless financial services for customers and businesses enabling them to achieve their financial goals. This is a lending application that provides micro-loans to users. Features provided by the application are VAS(Value added services), BNPL(Buy now pay later), Merchant offline payments, Credit loans, Cash loan, etc.",
+      isFork: false,
+      languages: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
+          name: "Go Lang",
+          image: GoLang,
+        },
+        {
+          name: "PostgreSQL",
+          image: Postresql,
+        },
+        {
+          name: "Dockerfile",
+          image: Docker,
+        },
+        {
+          name: "Kubernetes",
+          image: Kubernetes,
+        },
+        {
+          name: "GCP",
+          image: GCP,
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Social Currency Platform for Content Creators",
+      createdAt: "2022-03-13T20:41:33Z",
+      url: "",
+      description:
+        "The Project was about the social currency platform based on Ethereum Blockchain. This platform is used to facilitate interactions between social media celebrities and their followers in the form of meetups, giveaways, exclusive content, etc. for social currencies. These social currencies can be earned by different tasks, contributions, contests, etc.",
+      isFork: false,
+      languages: [
+        {
+          name: "Go Lang",
+          image: GoLang,
+        },
+        {
+          name: "Dockerfile",
+          image: Docker,
+        },
+        {
+          name: "ETH",
+          image: ETH,
+        },
+        {
+          name: "PostgreSQL",
+          image: Postresql,
+        },
+        {
+          name: "GRPC",
+          image: GRPC,
+        },
+        {
+          name: "AWS",
+          image: AWS,
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Social Media Platform for Sharing Content Online",
+      url: "",
+      description:
+        "The Project was about the social media platform where users can upload their own content(like images, audio, and video clips). where users are able to share that Media on Popular social media like YouTube, LinkedIn, Twitter, and Facebook with a single click.",
+      isFork: false,
+      languages: [
+        {
+          name: "Go Lang",
+          image: GoLang,
+        },
+        {
+          name: "WebRTC",
+          image: WebRTC,
+        },
+        {
+          name: "Redis",
+          image: Redis,
+        },
+        {
+          name: "Dockerfile",
+          image: Docker,
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "Goxpert – Golang Training Portal",
+      url: "",
+      description:
+        "⚙️ Goxpert is a training and assessment platform. It helps non-Golang developers and freshers to trainthemselves in Golang. This portal has two types of users: Admin and Developer. Admin can create and manage developers, various courses, sections, and questions. Admin can also manage all the developers and see their progress for each course. A developer can opt-in for any course(s) as per their interest and get proficient in the respective course. This platform has an assessment feature that helps hire the best Golang developers",
+      isFork: false,
+      languages: [
+        {
+          name: "Go Lang",
+          image: GoLang,
+        },
+        {
+          name: "MySQL",
+          image: MySQL,
+        },
+        {
+          name: "Dockerfile",
+          image: Docker,
         },
       ],
     },
@@ -392,9 +496,9 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Vadgaon Maval, Pune, Maharashatra 412 106",
+    subtitle: "Pune, Maharashatra India- 412 106",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/kQaLpmvpyNjzHURz9",
   },
   phoneSection: {
     title: "",
@@ -416,4 +520,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  projects,
 };

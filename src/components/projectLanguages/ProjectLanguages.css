@@ -14,6 +14,11 @@
   font-family: "Google Sans Regular";
 }
 
+.software-skill-image {
+  width: 36px;
+  height: 36px;
+}
+
 @media (max-width: 768px) {
   .software-skill-inline-languages {
     margin-right: 10px;
