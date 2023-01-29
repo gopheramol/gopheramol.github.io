@@ -12,6 +12,7 @@ import ETH from "./assests/images/skills/eth.svg";
 import WebRTC from "./assests/images/skills/webrtc.svg";
 import MySQL from "./assests/images/skills/mysql.svg";
 import GRPC from "./assests/images/skills/grpc.svg";
+import Hyperledger from "./assests/images/skills/hyperledger.svg";
 
 import Vscode from "./assests/images/skills/vscode.svg";
 import Linux from "./assests/images/skills/linux.svg";
@@ -133,6 +134,18 @@ const skills = {
         {
           skillName: "Postgre SQL",
           image: Postresql,
+        },
+        {
+          skillName: "MySQL",
+          image: MySQL,
+        },
+        {
+          skillName: "GRPC",
+          image: GRPC,
+        },
+        {
+          skillName: "Hyperledger",
+          image: Hyperledger,
         },
       ],
     },
