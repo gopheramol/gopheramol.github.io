@@ -31,7 +31,7 @@ const seo = {
   og: {
     title: "Amol Gaikwad Portfolio",
     type: "website",
-    url: "http://AmolGaikwad.com/",
+    url: "https://gopheramol.github.io/",
   },
 };
 
