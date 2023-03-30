@@ -42,8 +42,7 @@ const greeting = {
   nickname: "Backend Engineer",
   subTitle:
     "2+ Years of professional experience Building efficient backend solutions with Golang",
-  resumeLink:
-    "https://drive.google.com/file/d/1erR1HAR6YgfQOwo2_n9LPfjdAxX21pvs/view?usp=sharing",
+  resumeLink: "",
   portfolio_repository: "https://github.com/gopheramol",
   githubProfile: "https://github.com/gopheramol?tab=projects",
 };
@@ -152,10 +151,7 @@ const skills = {
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-      ],
+      skills: ["⚡ Experience working on multiple cloud platforms"],
       softwareSkills: [
         {
           skillName: "AWS",
@@ -181,7 +177,7 @@ const skills = {
       skills: [
         "⚡ Golang tools : Go-Kit, Go-micro",
         "⚡ gRPC , Protobuf",
-        "⚡ GORM, Gorilla/mux, go-mock",
+        "⚡ GORM,Sqlc, Gorilla Mux, go-mock",
         "⚡ go-pg, go-chi",
       ],
       softwareSkills: [
@@ -319,7 +315,7 @@ const experience = {
           company: "Scalent Infotech Pvt. Ltd.",
           company_url: "https://www.scalent.io/",
           logo_path: "scalent.png",
-          duration: "Augest 2019 - Present",
+          duration: "March 2021 - Present",
           location: "Baner, Pune",
           description:
             "Developing and Designing Monolithic as well as Microservices-based projects",
@@ -327,22 +323,22 @@ const experience = {
         },
       ],
     },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Golang developer Intern",
-          company: "Floratechno Solutions Private Limited",
-          company_url: "https://in.linkedin.com/company/floratechnosolutions",
-          logo_path: "flora.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have research for best practices in golang , refactored codebase using idiomatic go, Write unit test cases",
-          color: "#9b1578",
-        },
-      ],
-    },
+    // {
+    //   title: "Internships",
+    //   experiences: [
+    //     {
+    //       title: "Golang developer Intern",
+    //       company: "Floratechno Solutions Private Limited",
+    //       company_url: "https://in.linkedin.com/company/floratechnosolutions",
+    //       logo_path: "flora.png",
+    //       duration: "March 2018 - Oct 2018",
+    //       location: "Pune, Maharashtra",
+    //       description:
+    //         "I have research for best practices in golang , refactored codebase using idiomatic go, Write unit test cases",
+    //       color: "#9b1578",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -509,9 +505,9 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Pune, Maharashatra India- 412 106",
+    subtitle: "Pune, Maharashatra, India",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/kQaLpmvpyNjzHURz9",
+    //location_map_link: "https://goo.gl/maps/kQaLpmvpyNjzHURz9",
   },
   phoneSection: {
     title: "",
