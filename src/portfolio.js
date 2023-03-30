@@ -41,7 +41,7 @@ const greeting = {
   logo_name: "Amol Gaikwad",
   nickname: "Backend Engineer",
   subTitle:
-    "3.5 Years of professional experience Building efficient backend solutions with Golang",
+    "2+ Years of professional experience Building efficient backend solutions with Golang",
   resumeLink:
     "https://drive.google.com/file/d/1erR1HAR6YgfQOwo2_n9LPfjdAxX21pvs/view?usp=sharing",
   portfolio_repository: "https://github.com/gopheramol",
