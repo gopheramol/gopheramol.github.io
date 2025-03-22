@@ -27,7 +27,7 @@ const settings = {
 const seo = {
   title: "Amol Gaikwad",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Experienced Golang developer specializing in microservices architecture with PostgreSQL, Docker, and Kubernetes. Building scalable applications for finance, cryptocurrency, and social media domains with a focus on quality and test-driven development.",
   og: {
     title: "Amol Gaikwad Portfolio",
     type: "website",
@@ -41,7 +41,7 @@ const greeting = {
   logo_name: "Amol Gaikwad",
   nickname: "Backend Engineer",
   subTitle:
-    "4+ Years of professional experience Building efficient backend solutions with Golang",
+    "Experienced Golang developer with a track record of success in microservices architecture, utilizing PostgreSQL, Docker, Kubernetes, and CI/CD pipelines. Proficient in Agile methodologies to drive efficient and collaborative development processes. Skilled in building scalable applications for diverse domains including finance, cryptocurrency, and social media. Dedicated to delivering high-quality solutions through Test-Driven Development (TDD) practices. Eager to contribute expertise to dynamic teams and drive innovation in the tech industry.",
   resumeLink: "",
   portfolio_repository: "https://github.com/gopheramol",
   githubProfile: "https://github.com/gopheramol?tab=projects",
@@ -109,14 +109,15 @@ const skills = {
         "⚡ Experience in Software Design and Developing enterprise applications",
         "⚡ Strong understanding of <b>Goroutines, Channels, and TDD</b> in Golang.",
         "⚡ Experience in developing <b>REST, and gRPC APIs for Monolithic and Microservices architecture </b> using Golang",
-        "⚡ Databases: <b>Postgresql, MySQL, BBolt DB</b>",
+        "⚡ Databases: <b>PostgreSQL, MySQL, BBolt DB, MongoDB</b>",
+        "⚡ Caching & Messaging: <b>Redis, Kafka</b> for high-performance systems",
+        "⚡ Proficient with <b>GORM, Gin, Gorilla/mux, go-mock</b> and other Golang tools",
       ],
       softwareSkills: [
         {
           skillName: "Go Lang",
           image: GoLang,
         },
-
         {
           skillName: "Redis",
           image: Redis,
@@ -129,7 +130,6 @@ const skills = {
           skillName: "Mongo",
           image: Mongo,
         },
-
         {
           skillName: "Postgre SQL",
           image: Postresql,
@@ -151,7 +151,12 @@ const skills = {
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
-      skills: ["⚡ Experience working on multiple cloud platforms"],
+      skills: [
+        "⚡ Experience working on multiple cloud platforms including AWS and GCP",
+        "⚡ Proficient with containerization using Docker and orchestration with Kubernetes",
+        "⚡ Experience with CI/CD pipelines for automated testing and deployment",
+        "⚡ Familiar with infrastructure as code and cloud-native application development",
+      ],
       softwareSkills: [
         {
           skillName: "AWS",
@@ -175,10 +180,12 @@ const skills = {
       title: "Platform and Tools",
       fileName: "PlatformTools",
       skills: [
-        "⚡ Golang tools : Go-Kit, Go-micro",
-        "⚡ gRPC , Protobuf",
-        "⚡ GORM,Sqlc, Gorilla Mux, go-mock",
-        "⚡ go-pg, go-chi",
+        "⚡ Golang tools: Go-Kit, Go-micro, Gin framework",
+        "⚡ gRPC, Protobuf for efficient API development",
+        "⚡ GORM, Sqlc, Gorilla Mux, go-mock for database and testing",
+        "⚡ go-pg, go-chi for building robust applications",
+        "⚡ Version control with Git and collaborative development",
+        "⚡ Proficient with Linux environments and command-line tools",
       ],
       softwareSkills: [
         {
@@ -236,25 +243,37 @@ const degrees = {
   degrees: [
     {
       title: "Dr. D. Y. Patil Institute of Technology Pimpri, Pune",
-      subtitle: "Bachelor of Engineering. in Computer Engineering",
+      subtitle: "Bachelor of Engineering in Computer Engineering",
       logo_path: "dpu.png",
       alt_name: "DYPIET Pimpri",
       duration: "2014 - 2017",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on English Langauge and Android Software Development.",
+        "⚡ Graduated with 65.66% from Savitribai Phule Pune University.",
         "⚡ I received the best coder of the computer department award.",
       ],
       website_link: "https://engg.dypvp.edu.in/",
     },
     {
       title: "Nutan Maharashtra Vidya Polytechnic",
-      subtitle: "Diploma. in Computer Engineering",
+      subtitle: "Diploma in Computer Engineering",
       logo_path: "nmvp.jpg",
       alt_name: "NMVP Talegaon",
       duration: "2010 - 2014",
       descriptions: [
         "⚡ The basic subjects studied in computer science include programming in C, RDBMS, operating systems, mathematics, physics, and chemistry.",
+        "⚡ Graduated with 65.41% from Maharashtra State Board of Technical Education (MSBTE), Mumbai.",
+      ],
+      website_link: "",
+    },
+    {
+      title: "New English School Vadgaon Maval",
+      subtitle: "Secondary School Certificate (SSC)",
+      logo_path: "nmvp.jpg",
+      alt_name: "New English School",
+      duration: "2010",
+      descriptions: [
+        "⚡ Completed SSC with 60.15% from Maharashtra State Board.",
       ],
       website_link: "",
     },
@@ -264,13 +283,48 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Google Cloud Platform (GCP) Fundamentals for Beginners",
+      subtitle: "- Udemy",
+      logo_path: "udemy.png",
+      certificate_link: "",
+      alt_name: "Udemy",
+      credential_id: "UC-99ad7585-f1df-4dea-965e-346476984fd8",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Working with Microservices in Go (Golang)",
+      subtitle: "- Udemy",
+      logo_path: "udemy.png",
+      certificate_link: "",
+      alt_name: "Udemy",
+      credential_id: "UC-b2f71ab7-5b3e-458c-a781-6cb664dca4dd",
+      color_code: "#1F70C199",
+    },
+    {
+      title: "Docker and Kubernetes: The Complete Guide",
+      subtitle: "- Udemy",
+      logo_path: "udemy.png",
+      certificate_link: "",
+      alt_name: "Udemy",
+      credential_id: "UC-a77d0e2b-94a2-4370-a72f-fa85fc6dbebf",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Introduction to Testing in Go (Golang)",
+      subtitle: "- Udemy",
+      logo_path: "udemy.png",
+      certificate_link: "",
+      alt_name: "Udemy",
+      credential_id: "UC-db2a53dc-fba7-4ab5-b21d-dd270ea484ba",
+      color_code: "#4285F499",
+    },
+    {
       title: "Working with Concurrency in Go (Golang)",
       subtitle: "- Trevor Sawler",
       logo_path: "udemy.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+      certificate_link: "",
       alt_name: "Udemy",
-      color_code: "#8C151599",
+      color_code: "#2A73CC",
     },
   ],
 };
@@ -294,7 +348,7 @@ const experience = {
           duration: "March 2024 - Present",
           location: "Pune, Maharashtra, India · Remote",
           description:
-            "Working as a Senior Software Developer with focus on Golang backend development.",
+            "Working as a Senior Software Developer with focus on Golang backend development. Building scalable microservices and implementing efficient backend solutions.",
           color: "#0879bf",
         },
         {
@@ -305,7 +359,7 @@ const experience = {
           duration: "June 2023 - June 2024",
           location: "Pune, Maharashtra, India · Remote",
           description:
-            "Developed backend applications and services using Golang.",
+            "Worked on a Credit Line Application (FIRSTmoney) providing a revolving credit line to customers. Implemented standalone document-handler microservice using REST, wrote business logic following TDD approach, implemented new states in existing FSM, and wrote unit tests and integration tests. Technologies used: Golang, Microservices, PostgreSQL, Docker, K8S, Kafka, GOCD, MongoDB, Redis, Oracle, Thought Machine, Jaeger, Grafana.",
           color: "#9b1578",
         },
         {
@@ -316,7 +370,7 @@ const experience = {
           duration: "February 2021 - June 2023",
           location: "Pune, Maharashtra, India · Hybrid",
           description:
-            "Developing and Designing Monolithic as well as Microservices-based projects",
+            "Worked on multiple projects: 1) Finance Application: Developed a lending application providing micro-loans with features like VAS, BNPL, merchant offline payments, and credit loans. Implemented microservices using REST and followed clean code architecture. 2) Social Currency Platform: Built a platform based on Ethereum Blockchain for social media celebrities and followers, facilitating interactions through meetups and exclusive content. Implemented OAuth integration, cron jobs, and unit tests. Technologies: Golang, Microservices, PostgreSQL, Docker, K8S, GCP, AWS, GORM.",
           color: "#0879bf",
         },
         {
@@ -327,7 +381,7 @@ const experience = {
           duration: "March 2020 - October 2020",
           location: "Pune, Maharashtra, India · Remote",
           description:
-            "Worked on Golang development, researched best practices in Golang, refactored codebase using idiomatic Go, and wrote unit test cases.",
+            "Developed a Social Media Platform where users could upload and share content on platforms like YouTube, LinkedIn, Twitter, and Facebook with a single click. Responsibilities included developing APIs, refactoring code using idiomatic Go, writing unit tests, and participating in testing and team reviews. Technologies: Golang, Microservices, BBoltDB, AWS, WebRTC, FFmpeg, Redis.",
           color: "#9b1578",
         },
       ],
@@ -503,7 +557,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "amol.jpeg",
     description:
-      "I am available on almost every social media. You can message me, I can help you with Golang.",
+      "I am available on almost every social media. You can message me, I can help you with Golang. Feel free to reach out for collaborations or discussions about backend development and microservices.",
   },
   blogSection: {
     title: "Blogs",
@@ -519,8 +573,8 @@ const contactPageData = {
     //location_map_link: "https://goo.gl/maps/kQaLpmvpyNjzHURz9",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Phone",
+    subtitle: "+91 9175442277",
   },
 };
 
