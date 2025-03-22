@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a4d0ddb998c8127b7b93ef5b85fa908",
+    "revision": "18ec313122c9be0b9910c1ef82ff799c",
     "url": "./index.html"
   },
   {
-    "revision": "1cc22b6d4a74889ca291",
+    "revision": "dfb7db9dd10b6186eea8",
     "url": "./static/css/main.57bcab0f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.f8678892.chunk.js"
   },
   {
-    "revision": "1cc22b6d4a74889ca291",
-    "url": "./static/js/main.8f48f18b.chunk.js"
+    "revision": "dfb7db9dd10b6186eea8",
+    "url": "./static/js/main.ad8a2ced.chunk.js"
   },
   {
     "revision": "1a27038c5115d044f6f9",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "./static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "4722267187e6a2b6fd728165638eec2e",
+    "url": "./static/media/absolutelabs.47222671.svg"
   },
   {
     "revision": "16559172ca1d4d552390b48f19e102ba",
@@ -326,6 +330,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0993e3246bf5146154391a0afef79b03",
     "url": "./static/media/tiktok_logo.0993e324.png"
+  },
+  {
+    "revision": "cf5d6e9e1ee74daec76ce3b76df89419",
+    "url": "./static/media/trigent.cf5d6e9e.svg"
   },
   {
     "revision": "9f38217ab187dddce5462149e5dcb991",
