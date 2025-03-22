@@ -334,7 +334,7 @@ const experience = {
           company: "AbsoluteLabs",
           company_url: "https://www.absolutelabs.co/",
           logo_path: "absolutelabs.svg",
-          duration: "March 2024 - Present",
+          duration: "June 2024 - Present",
           location: "Pune, Maharashtra, India · Remote",
           description:
             "Building scalable microservices and backend solutions using Golang.",
