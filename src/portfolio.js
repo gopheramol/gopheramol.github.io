@@ -381,6 +381,35 @@ const experience = {
 const projects = {
   data: [
     {
+      id: "6",
+      name: "REST TEST - VS Code Extension for API Testing",
+      url:
+        "https://marketplace.visualstudio.com/items?itemName=rest-test.rest-test",
+      description:
+        "A powerful Visual Studio Code extension for seamless API testing. Test REST APIs directly in your editor without switching tools. Available on VS Code Marketplace and Open VSX.",
+      isFork: false,
+      languages: [
+        {
+          name: "VS Code",
+          image: Vscode,
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "Simple Expense Tracker App",
+      url: "https://github.com/gopheramol/expense-tracker",
+      description:
+        "An easy-to-use Expense Tracker application built with Golang and HTML. Features real-time expense tracking, intuitive UI, and responsive design. Leveraged Go's efficiency for a smooth backend and incorporated AI-driven insights to enhance the development process.",
+      isFork: false,
+      languages: [
+        {
+          name: "Go Lang",
+          image: GoLang,
+        },
+      ],
+    },
+    {
       id: "4",
       name: "Finance Application",
       url: "",
