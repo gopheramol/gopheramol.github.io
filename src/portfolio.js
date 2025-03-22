@@ -291,7 +291,7 @@ const experience = {
           company: "AbsoluteLabs",
           company_url: "",
           logo_path: "absolutelabs.png",
-          duration: "June 2024 - Present",
+          duration: "March 2024 - Present",
           location: "Pune, Maharashtra, India · Remote",
           description:
             "Working as a Senior Software Developer with focus on Golang backend development.",
