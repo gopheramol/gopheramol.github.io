@@ -41,7 +41,7 @@ const greeting = {
   logo_name: "Amol Gaikwad",
   nickname: "Backend Engineer",
   subTitle:
-    "2+ Years of professional experience Building efficient backend solutions with Golang",
+    "4+ Years of professional experience Building efficient backend solutions with Golang",
   resumeLink: "",
   portfolio_repository: "https://github.com/gopheramol",
   githubProfile: "https://github.com/gopheramol?tab=projects",
@@ -287,15 +287,48 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Software Engineer",
+          title: "Senior Software Developer",
+          company: "AbsoluteLabs",
+          company_url: "",
+          logo_path: "absolutelabs.png",
+          duration: "June 2024 - Present",
+          location: "Pune, Maharashtra, India · Remote",
+          description:
+            "Working as a Senior Software Developer with focus on Golang backend development.",
+          color: "#0879bf",
+        },
+        {
+          title: "Golang developer",
+          company: "Trigent Software Inc",
+          company_url: "",
+          logo_path: "trigent.png",
+          duration: "June 2023 - June 2024",
+          location: "Pune, Maharashtra, India · Remote",
+          description:
+            "Developed backend applications and services using Golang.",
+          color: "#9b1578",
+        },
+        {
+          title: "Golang Developer",
           company: "Scalent Infotech Pvt. Ltd.",
           company_url: "https://www.scalent.io/",
           logo_path: "scalent.png",
-          duration: "March 2021 - Present",
-          location: "Baner, Pune",
+          duration: "February 2021 - June 2023",
+          location: "Pune, Maharashtra, India · Hybrid",
           description:
             "Developing and Designing Monolithic as well as Microservices-based projects",
           color: "#0879bf",
+        },
+        {
+          title: "Junior Software Engineer",
+          company: "Floratechno Solutions Private Limited",
+          company_url: "https://in.linkedin.com/company/floratechnosolutions",
+          logo_path: "flora.png",
+          duration: "March 2020 - October 2020",
+          location: "Pune, Maharashtra, India · Remote",
+          description:
+            "Worked on Golang development, researched best practices in Golang, refactored codebase using idiomatic Go, and wrote unit test cases.",
+          color: "#9b1578",
         },
       ],
     },
