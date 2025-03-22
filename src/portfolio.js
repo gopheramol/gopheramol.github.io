@@ -289,8 +289,8 @@ const experience = {
         {
           title: "Senior Software Developer",
           company: "AbsoluteLabs",
-          company_url: "",
-          logo_path: "absolutelabs.png",
+          company_url: "https://www.absolutelabs.co/",
+          logo_path: "absolutelabs.svg",
           duration: "March 2024 - Present",
           location: "Pune, Maharashtra, India · Remote",
           description:
@@ -300,8 +300,8 @@ const experience = {
         {
           title: "Golang developer",
           company: "Trigent Software Inc",
-          company_url: "",
-          logo_path: "trigent.png",
+          company_url: "https://trigent.com/",
+          logo_path: "trigent.svg",
           duration: "June 2023 - June 2024",
           location: "Pune, Maharashtra, India · Remote",
           description:
