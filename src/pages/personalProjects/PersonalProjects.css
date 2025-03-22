@@ -1,0 +1,90 @@
+.personal-projects-main {
+  width: 100%;
+}
+
+.basic-personal-projects {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.personal-projects-heading-div {
+  display: flex;
+}
+
+.personal-projects-heading-div > * {
+  flex: 1;
+}
+
+.personal-projects-heading-img-div {
+  align-items: center;
+  justify-content: center;
+}
+
+.personal-projects-heading-text-div {
+  text-align: center;
+}
+
+.personal-projects-heading-img-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.personal-projects-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.personal-projects-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
+}
+
+.repo-cards-div-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.personal-project-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .personal-projects-heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .personal-projects-heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .personal-projects-heading-div {
+    flex-direction: column;
+  }
+
+  .personal-projects-header-detail-text {
+    font-size: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+}

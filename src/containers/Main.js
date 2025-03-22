@@ -7,6 +7,7 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import PersonalProjects from "../pages/personalProjects/PersonalProjects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 import Header from "../components/header/Header";
@@ -65,6 +66,12 @@ export default class Main extends Component {
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/personalProjects"
+                render={(props) => (
+                  <PersonalProjects {...props} theme={this.props.theme} />
                 )}
               />
               <Route
@@ -130,6 +137,18 @@ export default class Main extends Component {
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/personalProjects"
+                render={(props) => (
+                  <PersonalProjects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="*"
+                render={(props) => (
+                  <Error404 {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>

@@ -84,6 +84,18 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to="/personalProjects"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Personal Projects
+                </NavLink>
+              </li>
               {/* <li>
                 <NavLink
                   to="/opensource"
